@@ -22,9 +22,11 @@ La aplicación estará disponible en `http://localhost:5173`
 
 ## Prod
 
-Para construir la imagen de Docker:
+1. Clonar el repositorio
+2. Crear un .env basado en el .env.template
+3. Construir la imagen de Docker:
 
 ```bash
 docker build -t silice-frontend .
-docker run -p 80:80 silice-frontend
+docker run -d -p 80:80 silice-frontend
 ```
