@@ -2,6 +2,11 @@
 
 Aplicación web para gestión de recibos con React, autenticación JWT y Tailwind CSS.
 
+## Requisitos
+
+- Node.js v22
+- npm
+
 ## Stack
 
 - React
@@ -10,6 +15,14 @@ Aplicación web para gestión de recibos con React, autenticación JWT y Tailwin
 - React Router
 - Axios
 - Tailwind CSS
+
+## Variables de Entorno
+
+Crear un archivo `.env` basado en `.env.template` con las siguientes variables:
+
+```
+VITE_API_URL=http://localhost:3000
+```
 
 ## Dev
 
